@@ -3,6 +3,14 @@ body {
 	/*font-family: "open sans", arial, sans-serif;*/
 }
 
+.home_row .portfolio-item {
+	padding: 0px;
+}
+
+.profile_pic {
+	border-radius: 300px;
+}
+
 .page-header {
 	font-weight: 400;
 	margin: 0px;

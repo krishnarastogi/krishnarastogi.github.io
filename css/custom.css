@@ -127,7 +127,10 @@ body {
 	text-align: left;
 	position: absolute;
 	left: 0px;
-	bottom: -20px;
+	bottom: 70px;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	height: 20px;
 	right: 0px;
 }
 
@@ -140,8 +143,7 @@ body {
 
 .carousel-indicators {
 	position: absolute;
-	right: 10px;
-	bottom: -6px;
+	bottom: 65px;
 }
 
 .footer-line {

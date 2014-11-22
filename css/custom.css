@@ -107,17 +107,10 @@ body {
 	color: #444;
 }
 
-.carousel-inner .gb_item {
-	height: 322px;
+.carousel-inner .item {
+	border: 1px #dfdfdf solid;
 }
 
-.carousel-inner .cs_item {
-	height: 390px;
-}
-
-.carousel-inner .br_item {
-	height: 500px;
-}
 
 .carousel-caption {
 	color: white;
@@ -127,11 +120,10 @@ body {
 	text-align: left;
 	position: absolute;
 	left: 0px;
-	bottom: 70px;
-	padding-bottom: 15px;
-	padding-top: 15px;
 	height: 20px;
 	right: 0px;
+	bottom: 0px;
+	padding-bottom: 10px;
 }
 
 .carousel-caption h5 {
@@ -141,16 +133,10 @@ body {
 	text-align: center;
 }
 
-.carousel-indicators {
-	position: absolute;
-	bottom: 65px;
-}
-
 .footer-line {
 	width: 960px;
 }
 
-footer {
-	/*position: absolute;
-	bottom: 10px;*/
+.carousel-indicators {
+	bottom: -5px;
 }

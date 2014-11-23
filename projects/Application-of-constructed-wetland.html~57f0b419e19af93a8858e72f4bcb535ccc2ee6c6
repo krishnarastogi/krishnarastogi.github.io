@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="shortcut icon" href="../img/krishna.favicon.ico"> 
+    <link rel="shortcut icon" href="../img/krishna.ico"> 
 
     <title>Krishna Rastogi</title>
 
@@ -27,7 +27,8 @@
 </head>
 
 <body>
-<nav class="navbar" role="navigation">
+
+    <nav class="navbar" role="navigation">
         <div class="container">
             <div class="navbar-header">
 
@@ -41,18 +42,6 @@
 
             <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav pull-right">
-<<<<<<< HEAD:projects/E-Nose-application-on-investigation-of-cheese-flavoring.html.html
-                    <li><a href="http://krishnarastogi.github.com/index.html">ABOUT</a>
-                    </li>
-                    <li><a href="http://krishnarastogi.github.io/projects.html">PROJECTS</a>
-                    </li>
-                    <li><a href="http://krishnarastogi.github.io/events.html">EVENTS</a>
-                    </li>
-                    <li><a href="http://krishnarastogi.github.io/gallery.html">GALLERY</a>
-                    </li>
-                    <li><a href="http://krishnarastogi.github.io/contact.html">CONTACT</a>
-                    </li>  
-=======
                     <li><a href="http://krishnarastogi.github.com/index.html">About</a>
                     </li>
                     <li><a href="http://krishnarastogi.github.io/projects.html">Projects</a>
@@ -61,11 +50,11 @@
                     </li>
                     <li><a href="http://krishnarastogi.github.io/contact.html">Contact</a>
                     </li> 
->>>>>>> 57f0b419e19af93a8858e72f4bcb535ccc2ee6c6:projects/E-Nose-application-on-investigation-of-cheese-flavoring.html.html
                 </ul>
             </div>
         </div>
     </nav>
+
     <div class="container">
 
         <div class="row">
@@ -81,15 +70,16 @@
         <div class="row">
 
             <div class="col-md-6">
-                <img class="project-gallery-img"  src="../img/project-gallery/ivitoolkit.png">
+                <img class="project-gallery-img" style="width:450px; margin-top: 20px; border: 1px solid #DfDfDf; " src="../img/project-gallery/schoolos.jpg">
             </div>
 
             <div class="col-md-6">
-                <h3 class="project-title">E-Nose application on investigation of cheese flavoring microorganisms involved in cheese maturation</h3>
-                <p>I was involved in a study of aroma profiling of cheese during its tenure of maturation
-                   through fermentation process. I estimated aroma using E-nose instrument to analysis
-                the ripening of cheese with the help of aroma obtained at different period of time.</p>
-        
+                <h3 class="project-title">Application of constructed wetland</h3>
+                <p>A prototype of constructed wetland was designed to treat the municipal waste water. The prototype demonstrated proved to be efficacious in significantly reducing levels of toxicants. In this study series of BOD, COD, TSS and TDS is conducted to proof the concept.</p>
+                
+                  <h3 class="project-title">Technical Implementations</h3>
+                <p>Analysis of BOD, COD, TSS and TDS, Microbial analysis</p>
+                
             </div>
 
         </div>
@@ -109,7 +99,7 @@
 
     </div>
     <!-- /.container -->
-
+   
 </body>
 
 </html>

@@ -6,11 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-<<<<<<< HEAD:events.html
-    <link rel="shortcut icon" href="../img/krishna.favicon.ico">
-=======
     <link rel="shortcut icon" href="../img/krishna.ico">
->>>>>>> 57f0b419e19af93a8858e72f4bcb535ccc2ee6c6:conferences.html
 
 
     <title>Krishna Rastogi</title>
@@ -48,24 +44,14 @@
 
             <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav pull-right">
-                    <li><a href="http://krishnarastogi.github.com/index.html">ABOUT</a>
+                    <li><a href="http://krishnarastogi.github.com/index.html">About</a>
                     </li>
-<<<<<<< HEAD:events.html
-                    <li><a href="http://krishnarastogi.github.io/projects.html">PROJECTS</a>
-                    </li>
-                    <li><a href="http://krishnarastogi.github.io/events.html">EVENTS</a>
-                    </li>
-                    <li><a href="http://krishnarastogi.github.io/gallery.html">GALLERY</a>
-=======
                     <li><a href="http://krishnarastogi.github.io/projects.html">Projects</a>
                     </li>
                     <li><a href="http://krishnarastogi.github.io/conferences.html">Conferences</a>
                     </li>
                     <li><a href="http://krishnarastogi.github.io/contact.html">Contact</a>
->>>>>>> 57f0b419e19af93a8858e72f4bcb535ccc2ee6c6:conferences.html
                     </li>
-                    <li><a href="http://krishnarastogi.github.io/contact.html">CONTACT</a>
-                    </li> 
                 </ul>
             </div>
         </div>

@@ -3,6 +3,14 @@ body {
 	/*font-family: "open sans", arial, sans-serif;*/
 }
 
+.home_row .portfolio-item {
+	padding: 0px;
+}
+
+.profile_pic {
+	border-radius: 300px;
+}
+
 .page-header {
 	font-weight: 400;
 	margin: 0px;
@@ -107,17 +115,10 @@ body {
 	color: #444;
 }
 
-.carousel-inner .gb_item {
-	height: 322px;
+.carousel-inner .item {
+	border: 1px #dfdfdf solid;
 }
 
-.carousel-inner .cs_item {
-	height: 390px;
-}
-
-.carousel-inner .br_item {
-	height: 500px;
-}
 
 .carousel-caption {
 	color: white;
@@ -127,8 +128,10 @@ body {
 	text-align: left;
 	position: absolute;
 	left: 0px;
-	bottom: -20px;
+	height: 20px;
 	right: 0px;
+	bottom: 0px;
+	padding-bottom: 10px;
 }
 
 .carousel-caption h5 {
@@ -138,17 +141,10 @@ body {
 	text-align: center;
 }
 
-.carousel-indicators {
-	position: absolute;
-	right: 10px;
-	bottom: -6px;
-}
-
 .footer-line {
 	width: 960px;
 }
 
-footer {
-	/*position: absolute;
-	bottom: 10px;*/
+.carousel-indicators {
+	bottom: -5px;
 }

@@ -1,4 +1,4 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -27,7 +27,8 @@
 </head>
 
 <body>
-<nav class="navbar" role="navigation">
+
+    <nav class="navbar" role="navigation">
         <div class="container">
             <div class="navbar-header">
 
@@ -41,7 +42,6 @@
 
             <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav pull-right">
-
                     <li><a href="http://krishnarastogi.github.com/index.html">ABOUT</a>
                     </li>
                     <li><a href="http://krishnarastogi.github.io/projects.html">PROJECTS</a>
@@ -56,12 +56,13 @@
             </div>
         </div>
     </nav>
+
     <div class="container">
 
         <div class="row">
 
             <div class="col-lg-12">
-                <h1 class="page-header">Krishna Rastogi 
+                <h1 class="page-header">Krishna Rastogi
                     <small></small>
                 </h1>
             </div>
@@ -71,22 +72,51 @@
         <div class="row">
 
             <div class="col-md-6">
-                <img class="project-gallery-img"  src="../img/project-gallery/ivitoolkit.png">
+                <div class="row-fluid">
+                    <div class="span9">
+                    <div id="myCarousel" class="carousel slide">
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                            <li data-target="#myCarousel" data-slide-to="2"></li>
+                            <li data-target="#myCarousel" data-slide-to="3"></li>
+                        </ol>
+                        <div class="carousel-inner project-gallery-carousel" >
+                            <div class="item active br_item">
+                              <img src="../img/project-gallery/braillereader_1.jpg" width="100%">
+                                <div class="carousel-caption">
+                                    <h5>Level 1</h5>
+                                </div>
+                            </div>
+                            <div class="item br_item">
+                              <img src="../img/project-gallery/braillereader_2.jpg" width="100%">
+                                <div class="carousel-caption">
+                                    <h5>Level 2</h5>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
             </div>
 
             <div class="col-md-6">
-                <h3 class="project-title">E-Nose application on investigation of cheese flavoring microorganisms involved in cheese maturation</h3>
-                <p>I was involved in a study of aroma profiling of cheese during its tenure of maturation
-                   through fermentation process. I estimated aroma using E-nose instrument to analysis
-                the ripening of cheese with the help of aroma obtained at different period of time.</p>
-        
+                <h3 class="project-title">Studies on heart related and orthopedic activities using MPAQ and DAAFBO equipment</h3>
+                <p>Monitoring the chronically ill in their daily lives provides more reliable information that the patient’s self-report or doctor’s visit alone. This enhances the quality of the treatment and rehabilitation methods. The system can simultaneously measure several parameters in, on and around the human body from temperature, heart rate and brain activity to the intensity of muscle activity. The difference is in the extremely high quality of the data and it can simultaneously measure 32 different parameters
+                </p>
+
+                <h3 class="project-title">Technical Implementations</h3>
+                <p>ECG Signal analysis, Signal Processing, Arduino</p>
+                
             </div>
 
         </div>
 
     </div>
-    <!-- /.container -->
 
+    <!-- /.container -->
     <div class="container footer-line">
         <footer>
             <div class="row">
@@ -99,6 +129,11 @@
 
     </div>
     <!-- /.container -->
+    
+    <!--Load the Carousel-->
+    <script>
+      $('.carousel').carousel()
+    </script>
 
 </body>
 

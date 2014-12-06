@@ -18,8 +18,9 @@
     <script src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/bootstrap-carousel.min.js"></script>
     <link rel="stylesheet" href="css/bootstrap-carousel.min.css" /> 
+    <link href="css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
     <!-- Booststrap core JS files-->
-
+ 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
 
@@ -72,7 +73,16 @@
 
         <div class="row">
             <div class="col-md-12 portfolio-item"> 
-               <embed type="application/x-shockwave-flash" src="https://photos.gstatic.com/media/slideshow.swf" width="800" height="533" flashvars="host=picasaweb.google.com&hl=en_US&feat=flashalbum&RGB=0x000000&feed=https%3A%2F%2Fpicasaweb.google.com%2Fdata%2Ffeed%2Fapi%2Fuser%2F109215177103905966208%2Falbumid%2F6087194222004174705%3Falt%3Drss%26kind%3Dphoto%26authkey%3DGv1sRgCNuM8dWa5e7ODQ%26hl%3Den_US" pluginspage="http://www.macromedia.com/go/getflashplayer"></embed>
+                <div id="artCarousel"  class="carousel slide">
+                    <div class="carousel-inner">
+                    <div class="item"><img src="img/gallery/1.jpg" alt=""></div>
+                    <div class="item"><img src="img/gallery/2.jpg" alt=""></div>
+                    <div class="item"><img src="img/gallery/3.jpg" alt=""></div>
+                    <div class="item"><img src="img/gallery/4.jpg" alt=""></div>
+                    <div class="item active"><img src="img/gallery/5.jpg" alt=""></div>
+                    </div><!-- end carousel-inner -->
+                    <a class="left carousel-control" href="#artCarousel" data-slide="prev">&lsaquo;</a><a class="right carousel-control" href="#artCarousel" data-slide="next">&rsaquo;</a>
+                </div><!-- end artCarousel -->
             </div>    
         </div>
                                                                             

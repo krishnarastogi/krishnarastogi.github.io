@@ -151,9 +151,3 @@ body {
 .carousel-indicators {
 	bottom: -5px;
 }
-.carousel-control {
-height: 100%;
-margin-top: 0px;
-border-radius: 0;
-border: 0;
-}
